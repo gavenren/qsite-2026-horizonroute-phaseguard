@@ -4,8 +4,12 @@ Team: Gaven
 
 This folder contains two separate projects for the Quantum Coalition open challenges.
 
-- **[HorizonRoute (computing)](computing/):** a general qubit placement and routing solver. Its public benchmark score is **68.5**, compared with **283.5** for the supplied baseline. Lower is better. All routes pass the unchanged official checker. Read the [two-page report](computing/report.pdf) or [download the source package](computing/computing-source.zip).
-- **[PhaseGuard (scientific)](scientific/):** an ANNNI phase detection study with noise after every CNOT. A 28-CNOT circuit keeps **67 of 70** ordered grid labels at 1% gate noise. Read the [three-page report](scientific/report.pdf), open the [executed notebook](scientific/PhaseGuard.ipynb), or [download the source package](scientific/scientific-source.zip).
+| Project | Main result | Files | Presentation |
+|---|---|---|---|
+| [HorizonRoute (computing)](computing/) | Public benchmark score: **68.5**, compared with **283.5** for the supplied baseline. Lower is better. All routes pass the unchanged official checker. | [Two-page report](computing/report.pdf) · [Source package](computing/computing-source.zip) | [Watch the video](https://youtu.be/-lTLUSdd-J0) |
+| [PhaseGuard (scientific)](scientific/) | A 28-CNOT circuit keeps **67 of 70** ordered grid labels at 1% gate noise. | [Three-page report](scientific/report.pdf) · [Executed notebook](scientific/PhaseGuard.ipynb) · [Source package](scientific/scientific-source.zip) | [Watch the video](https://youtu.be/UYNNHwUeBh8) |
+
+HorizonRoute solves qubit placement and routing. PhaseGuard studies ANNNI phase detection with noise after every CNOT. Both videos are unlisted.
 
 The reports state the measured results and limits. They do not claim a guaranteed award or a global optimum.
 
