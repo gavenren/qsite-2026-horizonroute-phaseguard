@@ -1,0 +1,1621 @@
+{
+  "max_iterations_per_point": 200,
+  "elapsed_seconds": 20.487672499999462,
+  "records": [
+    {
+      "ih": 8,
+      "ik": 14,
+      "kappa": 1.0,
+      "h": 1.1428571428571428,
+      "before": -11.372288796026888,
+      "after": -11.372288796061849,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        8,
+        14
+      ]
+    },
+    {
+      "ih": 7,
+      "ik": 13,
+      "kappa": 0.9285714285714285,
+      "h": 1.0,
+      "before": -10.231335783128339,
+      "after": -10.231335783160281,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        7,
+        13
+      ]
+    },
+    {
+      "ih": 2,
+      "ik": 8,
+      "kappa": 0.5714285714285714,
+      "h": 0.2857142857142857,
+      "before": -5.056709267481464,
+      "after": -5.056709267517954,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        2,
+        8
+      ]
+    },
+    {
+      "ih": 6,
+      "ik": 12,
+      "kappa": 0.8571428571428571,
+      "h": 0.8571428571428571,
+      "before": -9.10562459367903,
+      "after": -9.105624593745118,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        6,
+        12
+      ]
+    },
+    {
+      "ih": 9,
+      "ik": 14,
+      "kappa": 1.0,
+      "h": 1.2857142857142856,
+      "before": -12.32177257332807,
+      "after": -12.32177257335645,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        9,
+        14
+      ]
+    },
+    {
+      "ih": 7,
+      "ik": 14,
+      "kappa": 1.0,
+      "h": 1.0,
+      "before": -10.52560162730331,
+      "after": -10.525601627346553,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        7,
+        14
+      ]
+    },
+    {
+      "ih": 3,
+      "ik": 9,
+      "kappa": 0.6428571428571428,
+      "h": 0.42857142857142855,
+      "before": -5.921041508606874,
+      "after": -5.92104150864018,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        3,
+        9
+      ]
+    },
+    {
+      "ih": 5,
+      "ik": 11,
+      "kappa": 0.7857142857142857,
+      "h": 0.7142857142857142,
+      "before": -8.001424840198434,
+      "after": -8.001424840223173,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        5,
+        11
+      ]
+    },
+    {
+      "ih": 4,
+      "ik": 10,
+      "kappa": 0.7142857142857142,
+      "h": 0.5714285714285714,
+      "before": -6.930876244381629,
+      "after": -6.930876244534345,
+      "changed": true,
+      "iterations": 2,
+      "evaluations": 4,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        4,
+        10
+      ]
+    },
+    {
+      "ih": 6,
+      "ik": 13,
+      "kappa": 0.9285714285714285,
+      "h": 0.8571428571428571,
+      "before": -9.40905931302733,
+      "after": -9.40905931303983,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        6,
+        13
+      ]
+    },
+    {
+      "ih": 8,
+      "ik": 13,
+      "kappa": 0.9285714285714285,
+      "h": 1.1428571428571428,
+      "before": -11.168374092270854,
+      "after": -11.168374092320493,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        8,
+        13
+      ]
+    },
+    {
+      "ih": 5,
+      "ik": 12,
+      "kappa": 0.8571428571428571,
+      "h": 0.7142857142857142,
+      "before": -8.316370062922047,
+      "after": -8.316370062931906,
+      "changed": false,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        5,
+        12
+      ]
+    },
+    {
+      "ih": 3,
+      "ik": 8,
+      "kappa": 0.5714285714285714,
+      "h": 0.42857142857142855,
+      "before": -5.82504574251823,
+      "after": -5.825045752622222,
+      "changed": true,
+      "iterations": 19,
+      "evaluations": 22,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        3,
+        8
+      ]
+    },
+    {
+      "ih": 10,
+      "ik": 14,
+      "kappa": 1.0,
+      "h": 1.4285714285714284,
+      "before": -13.309222543461068,
+      "after": -13.30922254349571,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        10,
+        14
+      ]
+    },
+    {
+      "ih": 7,
+      "ik": 12,
+      "kappa": 0.8571428571428571,
+      "h": 1.0,
+      "before": -10.027521620648498,
+      "after": -10.02752162067157,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        7,
+        12
+      ]
+    },
+    {
+      "ih": 2,
+      "ik": 7,
+      "kappa": 0.5,
+      "h": 0.2857142857142857,
+      "before": -5.063666940629035,
+      "after": -5.063666940695289,
+      "changed": true,
+      "iterations": 2,
+      "evaluations": 4,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        2,
+        7
+      ]
+    },
+    {
+      "ih": 9,
+      "ik": 13,
+      "kappa": 0.9285714285714285,
+      "h": 1.2857142857142856,
+      "before": -12.149066739041627,
+      "after": -12.149066739089998,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        9,
+        13
+      ]
+    },
+    {
+      "ih": 6,
+      "ik": 11,
+      "kappa": 0.7857142857142857,
+      "h": 0.8571428571428571,
+      "before": -8.905198605936098,
+      "after": -8.90519860595076,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        6,
+        11
+      ]
+    },
+    {
+      "ih": 4,
+      "ik": 11,
+      "kappa": 0.7857142857142857,
+      "h": 0.5714285714285714,
+      "before": -7.26982746442916,
+      "after": -7.269827464456841,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        4,
+        11
+      ]
+    },
+    {
+      "ih": 3,
+      "ik": 10,
+      "kappa": 0.7142857142857142,
+      "h": 0.42857142857142855,
+      "before": -6.264261590332647,
+      "after": -6.295107765879733,
+      "changed": true,
+      "iterations": 200,
+      "evaluations": 217,
+      "success": false,
+      "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "seed_neighbor": [
+        3,
+        11
+      ]
+    },
+    {
+      "ih": 11,
+      "ik": 14,
+      "kappa": 1.0,
+      "h": 1.5714285714285714,
+      "before": -14.321944728897698,
+      "after": -14.321944728957646,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        11,
+        14
+      ]
+    },
+    {
+      "ih": 6,
+      "ik": 14,
+      "kappa": 1.0,
+      "h": 0.8571428571428571,
+      "before": -9.781171415014978,
+      "after": -9.781171415056228,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        6,
+        14
+      ]
+    },
+    {
+      "ih": 4,
+      "ik": 9,
+      "kappa": 0.6428571428571428,
+      "h": 0.5714285714285714,
+      "before": -6.7701987503649,
+      "after": -6.770198750385702,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        4,
+        9
+      ]
+    },
+    {
+      "ih": 5,
+      "ik": 10,
+      "kappa": 0.7142857142857142,
+      "h": 0.7142857142857142,
+      "before": -7.812400013562477,
+      "after": -7.812400013592556,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        5,
+        10
+      ]
+    },
+    {
+      "ih": 3,
+      "ik": 7,
+      "kappa": 0.5,
+      "h": 0.42857142857142855,
+      "before": -5.818580486118454,
+      "after": -5.81858048613744,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        3,
+        7
+      ]
+    },
+    {
+      "ih": 8,
+      "ik": 12,
+      "kappa": 0.8571428571428571,
+      "h": 1.1428571428571428,
+      "before": -11.000089889890093,
+      "after": -11.000089889918517,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        8,
+        12
+      ]
+    },
+    {
+      "ih": 10,
+      "ik": 13,
+      "kappa": 0.9285714285714285,
+      "h": 1.4285714285714284,
+      "before": -13.157342801330875,
+      "after": -13.157342801425337,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        10,
+        13
+      ]
+    },
+    {
+      "ih": 12,
+      "ik": 14,
+      "kappa": 1.0,
+      "h": 1.7142857142857142,
+      "before": -15.353239454265003,
+      "after": -15.353239454774846,
+      "changed": true,
+      "iterations": 2,
+      "evaluations": 4,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        12,
+        14
+      ]
+    },
+    {
+      "ih": 4,
+      "ik": 8,
+      "kappa": 0.5714285714285714,
+      "h": 0.5714285714285714,
+      "before": -6.694141027437885,
+      "after": -6.694141027650363,
+      "changed": true,
+      "iterations": 2,
+      "evaluations": 4,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        4,
+        8
+      ]
+    },
+    {
+      "ih": 7,
+      "ik": 11,
+      "kappa": 0.7857142857142857,
+      "h": 1.0,
+      "before": -9.867351781701206,
+      "after": -9.867351781730548,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        7,
+        11
+      ]
+    },
+    {
+      "ih": 5,
+      "ik": 13,
+      "kappa": 0.9285714285714285,
+      "h": 0.7142857142857142,
+      "before": -8.727357109144041,
+      "after": -8.727357109168489,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        5,
+        13
+      ]
+    },
+    {
+      "ih": 13,
+      "ik": 14,
+      "kappa": 1.0,
+      "h": 1.857142857142857,
+      "before": -16.39890970319488,
+      "after": -16.39890970322893,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        13,
+        14
+      ]
+    },
+    {
+      "ih": 9,
+      "ik": 12,
+      "kappa": 0.8571428571428571,
+      "h": 1.2857142857142856,
+      "before": -12.002772514138856,
+      "after": -12.002772514170834,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        9,
+        12
+      ]
+    },
+    {
+      "ih": 11,
+      "ik": 13,
+      "kappa": 0.9285714285714285,
+      "h": 1.5714285714285714,
+      "before": -14.185478952143347,
+      "after": -14.185478952332478,
+      "changed": true,
+      "iterations": 2,
+      "evaluations": 4,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        11,
+        13
+      ]
+    },
+    {
+      "ih": 6,
+      "ik": 10,
+      "kappa": 0.7142857142857142,
+      "h": 0.8571428571428571,
+      "before": -8.75958321018381,
+      "after": -8.759583210471177,
+      "changed": true,
+      "iterations": 2,
+      "evaluations": 4,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        6,
+        10
+      ]
+    },
+    {
+      "ih": 5,
+      "ik": 9,
+      "kappa": 0.6428571428571428,
+      "h": 0.7142857142857142,
+      "before": -7.692313943192978,
+      "after": -7.692313943206814,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        5,
+        9
+      ]
+    },
+    {
+      "ih": 14,
+      "ik": 14,
+      "kappa": 1.0,
+      "h": 2.0,
+      "before": -17.456087064405494,
+      "after": -17.456087344413454,
+      "changed": true,
+      "iterations": 40,
+      "evaluations": 43,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        14,
+        14
+      ]
+    },
+    {
+      "ih": 1,
+      "ik": 7,
+      "kappa": 0.5,
+      "h": 0.14285714285714285,
+      "before": -4.466308042837197,
+      "after": -4.46631050453478,
+      "changed": true,
+      "iterations": 200,
+      "evaluations": 210,
+      "success": false,
+      "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "seed_neighbor": [
+        1,
+        7
+      ]
+    },
+    {
+      "ih": 12,
+      "ik": 13,
+      "kappa": 0.9285714285714285,
+      "h": 1.7142857142857142,
+      "before": -15.228827940324646,
+      "after": -15.22882794038737,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        12,
+        13
+      ]
+    },
+    {
+      "ih": 8,
+      "ik": 11,
+      "kappa": 0.7857142857142857,
+      "h": 1.1428571428571428,
+      "before": -10.86240513093551,
+      "after": -10.862405131144317,
+      "changed": true,
+      "iterations": 2,
+      "evaluations": 4,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        8,
+        11
+      ]
+    },
+    {
+      "ih": 10,
+      "ik": 12,
+      "kappa": 0.8571428571428571,
+      "h": 1.4285714285714284,
+      "before": -13.02673402161304,
+      "after": -13.026734021693724,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        10,
+        12
+      ]
+    },
+    {
+      "ih": 4,
+      "ik": 7,
+      "kappa": 0.5,
+      "h": 0.5714285714285714,
+      "before": -6.670505765397964,
+      "after": -6.670505765430782,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        4,
+        7
+      ]
+    },
+    {
+      "ih": 13,
+      "ik": 13,
+      "kappa": 0.9285714285714285,
+      "h": 1.857142857142857,
+      "before": -16.284279769440985,
+      "after": -16.284279769500454,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        13,
+        13
+      ]
+    },
+    {
+      "ih": 5,
+      "ik": 8,
+      "kappa": 0.5714285714285714,
+      "h": 0.7142857142857142,
+      "before": -7.619857734405603,
+      "after": -7.619857737169859,
+      "changed": true,
+      "iterations": 9,
+      "evaluations": 12,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        5,
+        8
+      ]
+    },
+    {
+      "ih": 7,
+      "ik": 10,
+      "kappa": 0.7142857142857142,
+      "h": 1.0,
+      "before": -9.743018538224252,
+      "after": -9.743018538269538,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        7,
+        10
+      ]
+    },
+    {
+      "ih": 11,
+      "ik": 12,
+      "kappa": 0.8571428571428571,
+      "h": 1.5714285714285714,
+      "before": -14.066872655175914,
+      "after": -14.066872655234409,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        11,
+        12
+      ]
+    },
+    {
+      "ih": 9,
+      "ik": 11,
+      "kappa": 0.7857142857142857,
+      "h": 1.2857142857142856,
+      "before": -11.880425085586676,
+      "after": -11.880425085628898,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        9,
+        11
+      ]
+    },
+    {
+      "ih": 6,
+      "ik": 9,
+      "kappa": 0.6428571428571428,
+      "h": 0.8571428571428571,
+      "before": -8.655882931375174,
+      "after": -8.655882931413364,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        6,
+        9
+      ]
+    },
+    {
+      "ih": 14,
+      "ik": 13,
+      "kappa": 0.9285714285714285,
+      "h": 2.0,
+      "before": -17.349609280266947,
+      "after": -17.349609284684036,
+      "changed": true,
+      "iterations": 12,
+      "evaluations": 14,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        14,
+        13
+      ]
+    },
+    {
+      "ih": 5,
+      "ik": 14,
+      "kappa": 1.0,
+      "h": 0.7142857142857142,
+      "before": -9.177074483420991,
+      "after": -9.177074483426379,
+      "changed": false,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        5,
+        14
+      ]
+    },
+    {
+      "ih": 4,
+      "ik": 12,
+      "kappa": 0.8571428571428571,
+      "h": 0.5714285714285714,
+      "before": -7.728463819919964,
+      "after": -7.728463819933087,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        4,
+        12
+      ]
+    },
+    {
+      "ih": 3,
+      "ik": 6,
+      "kappa": 0.42857142857142855,
+      "h": 0.42857142857142855,
+      "before": -5.85790224320809,
+      "after": -5.857902243219396,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        3,
+        6
+      ]
+    },
+    {
+      "ih": 12,
+      "ik": 12,
+      "kappa": 0.8571428571428571,
+      "h": 1.7142857142857142,
+      "before": -15.119831313492195,
+      "after": -15.119831313570186,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        12,
+        12
+      ]
+    },
+    {
+      "ih": 2,
+      "ik": 6,
+      "kappa": 0.42857142857142855,
+      "h": 0.2857142857142857,
+      "before": -5.1296457574989,
+      "after": -5.12964575751305,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        2,
+        6
+      ]
+    },
+    {
+      "ih": 8,
+      "ik": 10,
+      "kappa": 0.7142857142857142,
+      "h": 1.1428571428571428,
+      "before": -10.751844700987016,
+      "after": -10.751844701008052,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        8,
+        10
+      ]
+    },
+    {
+      "ih": 10,
+      "ik": 11,
+      "kappa": 0.7857142857142857,
+      "h": 1.4285714285714284,
+      "before": -12.915863365885166,
+      "after": -12.915863365932811,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        10,
+        11
+      ]
+    },
+    {
+      "ih": 5,
+      "ik": 7,
+      "kappa": 0.5,
+      "h": 0.7142857142857142,
+      "before": -7.586785009503232,
+      "after": -7.58678500953602,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        5,
+        7
+      ]
+    },
+    {
+      "ih": 13,
+      "ik": 12,
+      "kappa": 0.8571428571428571,
+      "h": 1.857142857142857,
+      "before": -16.183222805450637,
+      "after": -16.183222805487127,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        13,
+        12
+      ]
+    },
+    {
+      "ih": 7,
+      "ik": 9,
+      "kappa": 0.6428571428571428,
+      "h": 1.0,
+      "before": -9.649367850971416,
+      "after": -9.649367850991352,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        7,
+        9
+      ]
+    },
+    {
+      "ih": 6,
+      "ik": 8,
+      "kappa": 0.5714285714285714,
+      "h": 0.8571428571428571,
+      "before": -8.586158270331223,
+      "after": -8.586158442195924,
+      "changed": true,
+      "iterations": 53,
+      "evaluations": 58,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        6,
+        8
+      ]
+    },
+    {
+      "ih": 11,
+      "ik": 11,
+      "kappa": 0.7857142857142857,
+      "h": 1.5714285714285714,
+      "before": -13.965088301205832,
+      "after": -13.965088301236737,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        11,
+        11
+      ]
+    },
+    {
+      "ih": 9,
+      "ik": 10,
+      "kappa": 0.7142857142857142,
+      "h": 1.2857142857142856,
+      "before": -11.779997945038831,
+      "after": -11.779997945075815,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        9,
+        10
+      ]
+    },
+    {
+      "ih": 14,
+      "ik": 12,
+      "kappa": 0.8571428571428571,
+      "h": 2.0,
+      "before": -17.255264615174895,
+      "after": -17.255264615423183,
+      "changed": true,
+      "iterations": 2,
+      "evaluations": 4,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        14,
+        12
+      ]
+    },
+    {
+      "ih": 4,
+      "ik": 6,
+      "kappa": 0.42857142857142855,
+      "h": 0.5714285714285714,
+      "before": -6.688034974986071,
+      "after": -6.688034975016065,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        4,
+        6
+      ]
+    },
+    {
+      "ih": 12,
+      "ik": 11,
+      "kappa": 0.7857142857142857,
+      "h": 1.7142857142857142,
+      "before": -15.025511277301078,
+      "after": -15.025511277434807,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        12,
+        11
+      ]
+    },
+    {
+      "ih": 8,
+      "ik": 9,
+      "kappa": 0.6428571428571428,
+      "h": 1.1428571428571428,
+      "before": -10.665669510667131,
+      "after": -10.665669510691604,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        8,
+        9
+      ]
+    },
+    {
+      "ih": 10,
+      "ik": 10,
+      "kappa": 0.7142857142857142,
+      "h": 1.4285714285714284,
+      "before": -12.823437559365095,
+      "after": -12.82343755941151,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        10,
+        10
+      ]
+    },
+    {
+      "ih": 13,
+      "ik": 11,
+      "kappa": 0.7857142857142857,
+      "h": 1.857142857142857,
+      "before": -16.09519426922719,
+      "after": -16.095194269292758,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        13,
+        11
+      ]
+    },
+    {
+      "ih": 7,
+      "ik": 8,
+      "kappa": 0.5714285714285714,
+      "h": 1.0,
+      "before": -9.582500741526562,
+      "after": -9.582500741559901,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        7,
+        8
+      ]
+    },
+    {
+      "ih": 6,
+      "ik": 7,
+      "kappa": 0.5,
+      "h": 0.8571428571428571,
+      "before": -8.547997236601162,
+      "after": -8.54799723666677,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        6,
+        7
+      ]
+    },
+    {
+      "ih": 11,
+      "ik": 10,
+      "kappa": 0.7142857142857142,
+      "h": 1.5714285714285714,
+      "before": -13.879251295138166,
+      "after": -13.879251295193475,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        11,
+        10
+      ]
+    },
+    {
+      "ih": 4,
+      "ik": 13,
+      "kappa": 0.9285714285714285,
+      "h": 0.5714285714285714,
+      "before": -8.215430694957139,
+      "after": -8.215430694984331,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        4,
+        13
+      ]
+    },
+    {
+      "ih": 14,
+      "ik": 11,
+      "kappa": 0.7857142857142857,
+      "h": 2.0,
+      "before": -17.172640167173718,
+      "after": -17.17264017267628,
+      "changed": true,
+      "iterations": 16,
+      "evaluations": 18,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        14,
+        11
+      ]
+    },
+    {
+      "ih": 9,
+      "ik": 9,
+      "kappa": 0.6428571428571428,
+      "h": 1.2857142857142856,
+      "before": -11.699878629556702,
+      "after": -11.69987862959429,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        9,
+        9
+      ]
+    },
+    {
+      "ih": 5,
+      "ik": 6,
+      "kappa": 0.42857142857142855,
+      "h": 0.7142857142857142,
+      "before": -7.5881112629841905,
+      "after": -7.588111263017634,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        5,
+        6
+      ]
+    },
+    {
+      "ih": 7,
+      "ik": 0,
+      "kappa": 0.0,
+      "h": 1.0,
+      "before": -10.216902244207189,
+      "after": -10.216902244262489,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        7,
+        0
+      ]
+    },
+    {
+      "ih": 6,
+      "ik": 1,
+      "kappa": 0.07142857142857142,
+      "h": 0.8571428571428571,
+      "before": -9.179931306308152,
+      "after": -9.179931306344042,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        6,
+        1
+      ]
+    },
+    {
+      "ih": 12,
+      "ik": 10,
+      "kappa": 0.7142857142857142,
+      "h": 1.7142857142857142,
+      "before": -14.94524975954496,
+      "after": -14.945249759609618,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        12,
+        10
+      ]
+    },
+    {
+      "ih": 5,
+      "ik": 2,
+      "kappa": 0.14285714285714285,
+      "h": 0.7142857142857142,
+      "before": -8.171166041951416,
+      "after": -8.17116604197869,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        5,
+        2
+      ]
+    },
+    {
+      "ih": 8,
+      "ik": 8,
+      "kappa": 0.5714285714285714,
+      "h": 1.1428571428571428,
+      "before": -10.60170265139929,
+      "after": -10.601702651490891,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        8,
+        8
+      ]
+    },
+    {
+      "ih": 10,
+      "ik": 9,
+      "kappa": 0.6428571428571428,
+      "h": 1.4285714285714284,
+      "before": -12.748435314096891,
+      "after": -12.74843531414819,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        10,
+        9
+      ]
+    },
+    {
+      "ih": 3,
+      "ik": 11,
+      "kappa": 0.7857142857142857,
+      "h": 0.42857142857142855,
+      "before": -6.799292109810172,
+      "after": -6.799292109832142,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        3,
+        11
+      ]
+    },
+    {
+      "ih": 2,
+      "ik": 9,
+      "kappa": 0.6428571428571428,
+      "h": 0.2857142857142857,
+      "before": -5.4160496883721505,
+      "after": -5.416089531462174,
+      "changed": true,
+      "iterations": 200,
+      "evaluations": 211,
+      "success": false,
+      "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "seed_neighbor": [
+        2,
+        9
+      ]
+    },
+    {
+      "ih": 7,
+      "ik": 7,
+      "kappa": 0.5,
+      "h": 1.0,
+      "before": -9.541682266954062,
+      "after": -9.541682266996833,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        7,
+        7
+      ]
+    },
+    {
+      "ih": 13,
+      "ik": 10,
+      "kappa": 0.7142857142857142,
+      "h": 1.857142857142857,
+      "before": -16.019742225399803,
+      "after": -16.01974222598896,
+      "changed": true,
+      "iterations": 2,
+      "evaluations": 4,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        13,
+        10
+      ]
+    },
+    {
+      "ih": 4,
+      "ik": 3,
+      "kappa": 0.21428571428571427,
+      "h": 0.5714285714285714,
+      "before": -7.198703912302948,
+      "after": -7.198703912316416,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "seed_neighbor": [
+        4,
+        3
+      ]
+    },
+    {
+      "ih": 8,
+      "ik": 0,
+      "kappa": 0.0,
+      "h": 1.1428571428571428,
+      "before": -11.01829110439563,
+      "after": -11.018291104543854,
+      "changed": true,
+      "iterations": 2,
+      "evaluations": 4,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        8,
+        0
+      ]
+    },
+    {
+      "ih": 11,
+      "ik": 9,
+      "kappa": 0.6428571428571428,
+      "h": 1.5714285714285714,
+      "before": -13.808677806418885,
+      "after": -13.808677806490614,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        11,
+        9
+      ]
+    },
+    {
+      "ih": 14,
+      "ik": 10,
+      "kappa": 0.7142857142857142,
+      "h": 2.0,
+      "before": -17.101395422780584,
+      "after": -17.101395422898456,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        14,
+        10
+      ]
+    },
+    {
+      "ih": 9,
+      "ik": 8,
+      "kappa": 0.5714285714285714,
+      "h": 1.2857142857142856,
+      "before": -11.638741483500684,
+      "after": -11.638742333314033,
+      "changed": true,
+      "iterations": 84,
+      "evaluations": 90,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        9,
+        8
+      ]
+    },
+    {
+      "ih": 6,
+      "ik": 6,
+      "kappa": 0.42857142857142855,
+      "h": 0.8571428571428571,
+      "before": -8.538837558125243,
+      "after": -8.538837558507877,
+      "changed": true,
+      "iterations": 2,
+      "evaluations": 4,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        6,
+        6
+      ]
+    },
+    {
+      "ih": 6,
+      "ik": 0,
+      "kappa": 0.0,
+      "h": 0.8571428571428571,
+      "before": -9.5641090351195,
+      "after": -9.564109035187677,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        6,
+        0
+      ]
+    },
+    {
+      "ih": 7,
+      "ik": 1,
+      "kappa": 0.07142857142857142,
+      "h": 1.0,
+      "before": -9.947079415261204,
+      "after": -9.947079415290762,
+      "changed": true,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        7,
+        1
+      ]
+    },
+    {
+      "ih": 4,
+      "ik": 14,
+      "kappa": 1.0,
+      "h": 0.5714285714285714,
+      "before": -8.719108781896454,
+      "after": -8.719108781904891,
+      "changed": false,
+      "iterations": 1,
+      "evaluations": 3,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        4,
+        14
+      ]
+    },
+    {
+      "ih": 12,
+      "ik": 9,
+      "kappa": 0.6428571428571428,
+      "h": 1.7142857142857142,
+      "before": -14.878569031127686,
+      "after": -14.878569146456135,
+      "changed": true,
+      "iterations": 47,
+      "evaluations": 51,
+      "success": true,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "seed_neighbor": [
+        12,
+        9
+      ]
+    }
+  ]
+}

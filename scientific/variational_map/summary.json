@@ -1,0 +1,27 @@
+{
+  "points": 225,
+  "refined_points": 95,
+  "mean_energy_error_per_site": 0.00400684496273185,
+  "max_energy_error_per_site": 0.018955375668496588,
+  "mean_clean_fidelity_h_positive": 0.9851863083829894,
+  "min_clean_fidelity_h_positive": 0.6645885120493142,
+  "optimizer_converged_points": 196,
+  "total_trials": 524,
+  "class_counts": [
+    [
+      34,
+      36,
+      155
+    ],
+    [
+      33,
+      34,
+      158
+    ],
+    [
+      0,
+      0,
+      225
+    ]
+  ]
+}
