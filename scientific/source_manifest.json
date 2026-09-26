@@ -1,0 +1,10 @@
+{
+  "challenge_repository": "https://github.com/benmcdonough20/QSITE-2026-QuantumCoalition",
+  "challenge_commit": "a45b04211d4da27dca3c79dbe7009ce58e85dc48",
+  "challenge_track": "Scientific Track",
+  "hamiltonian_convention": "periodic -sum ZZ nearest + kappa sum ZZ next-nearest - h sum X",
+  "preparation_noise_convention": "DepolarizingChannel(p) on each CNOT target after that gate",
+  "one_qubit_gate_noise": "none",
+  "hardware_experiment": false,
+  "ai_assistance": "Substantial assistance for code, analysis, and text; all numeric results come from executed simulations."
+}
