@@ -1,0 +1,15 @@
+test_bad_operation (__main__.RouterTests.test_bad_operation) ... ok
+test_determinism (__main__.RouterTests.test_determinism) ... ok
+test_disconnected_requires_swaps (__main__.RouterTests.test_disconnected_requires_swaps) ... ok
+test_empty (__main__.RouterTests.test_empty) ... ok
+test_full_occupancy_star (__main__.RouterTests.test_full_occupancy_star) ... ok
+test_impossible_components (__main__.RouterTests.test_impossible_components) ... ok
+test_mixed_order_and_operand_order (__main__.RouterTests.test_mixed_order_and_operand_order) ... ok
+test_no_capacity (__main__.RouterTests.test_no_capacity) ... ok
+test_random_cases (__main__.RouterTests.test_random_cases) ... ok
+test_single_qubit_and_labels (__main__.RouterTests.test_single_qubit_and_labels) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.821s
+
+OK

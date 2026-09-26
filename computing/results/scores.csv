@@ -1,0 +1,31 @@
+case,method,valid,swap_count,depth,score,seconds
+ghz_star,Official baseline,True,7,14,14.0,0.000404
+ghz_star,100 random placements,True,9,16,17.0,0.016339
+ghz_star,Static placement search,True,5,12,11.0,0.046657
+ghz_star,Small beam (40),True,3,8,7.0,0.72137
+ghz_star,HorizonRoute,True,2,9,6.5,25.325083
+chain_trotter,Official baseline,True,7,16,15.0,6.9e-05
+chain_trotter,100 random placements,True,12,21,22.5,0.020432
+chain_trotter,Static placement search,True,0,9,4.5,0.049791
+chain_trotter,Small beam (40),True,0,9,4.5,0.000275
+chain_trotter,HorizonRoute,True,0,9,4.5,0.000208
+ladder_trotter,Official baseline,True,25,21,35.5,8.8e-05
+ladder_trotter,100 random placements,True,22,19,31.5,0.033398
+ladder_trotter,Static placement search,True,6,8,10.0,0.156252
+ladder_trotter,Small beam (40),True,5,8,9.0,0.902518
+ladder_trotter,HorizonRoute,True,3,7,6.5,32.448822
+qaoa_random,Official baseline,True,26,26,39.0,0.000114
+qaoa_random,100 random placements,True,24,29,38.5,0.027646
+qaoa_random,Static placement search,True,11,21,21.5,0.077121
+qaoa_random,Small beam (40),True,6,13,12.5,0.471686
+qaoa_random,HorizonRoute,True,6,13,12.5,15.911392
+dense_random,Official baseline,True,90,64,122.0,0.000279
+dense_random,100 random placements,True,83,60,113.0,0.052856
+dense_random,Static placement search,True,51,46,74.0,0.13652
+dense_random,Small beam (40),True,30,23,41.5,0.695704
+dense_random,HorizonRoute,True,24,23,35.5,27.131407
+vqe_layers,Official baseline,True,42,32,58.0,0.000141
+vqe_layers,100 random placements,True,68,42,89.0,0.050851
+vqe_layers,Static placement search,True,5,7,8.5,0.151524
+vqe_layers,Small beam (40),True,0,6,3.0,0.00034
+vqe_layers,HorizonRoute,True,0,6,3.0,0.000299
