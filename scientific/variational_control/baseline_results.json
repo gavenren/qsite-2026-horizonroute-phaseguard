@@ -1,0 +1,507 @@
+{
+  "description": "Four-layer real variational preparation; fixed clean parameters under target depolarizing noise.",
+  "seed": 250925,
+  "pennylane_version": "0.44.1",
+  "python_version": "3.14.7",
+  "elapsed_seconds": 92.19843900000706,
+  "records": [
+    {
+      "phase_point": "ferromagnetic",
+      "kappa": 0.1,
+      "h": 0.2,
+      "n": 8,
+      "layers": 4,
+      "cnot_count": 28,
+      "rotation_count": 32,
+      "exact_energy": -7.289278819664649,
+      "exact_residual": 3.4910777442028393e-14,
+      "best_clean_energy": -7.289189913931105,
+      "clean_energy_error_per_site": 1.1113216693003913e-05,
+      "clean_fidelity": 0.0001626876506791129,
+      "optimizer_trials": [
+        {
+          "trial": 0,
+          "energy": -7.289011522244573,
+          "iterations": 400,
+          "evaluations": 448,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "trial": 1,
+          "energy": -7.289101927958267,
+          "iterations": 400,
+          "evaluations": 435,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "trial": 2,
+          "energy": -7.2890699889068475,
+          "iterations": 400,
+          "evaluations": 435,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "trial": 3,
+          "energy": -7.289129697466716,
+          "iterations": 400,
+          "evaluations": 445,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "trial": 4,
+          "energy": -7.289189913931104,
+          "iterations": 400,
+          "evaluations": 433,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "trial": 5,
+          "energy": -7.2890793322140395,
+          "iterations": 400,
+          "evaluations": 432,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        }
+      ],
+      "parameters": [
+        0.0050996852447019484,
+        -0.01921895772679704,
+        1.0316985563796464,
+        1.4486495977596905,
+        1.5298763738424923,
+        -1.5636587575902645,
+        1.5696898706661846,
+        1.570827857994369,
+        -0.0005579407005565898,
+        -1.6857639126729813,
+        0.46634566557874724,
+        0.6822152312620285,
+        -0.02349328909363608,
+        -0.020141719485983714,
+        0.008253762342796234,
+        -0.007626844408457328,
+        0.0009726455442923357,
+        1.716033828345735,
+        -1.2004171610439824,
+        2.0139612341582627,
+        -0.38854671287262355,
+        3.013577554788398,
+        -0.11268072805676253,
+        -0.11074609311317543,
+        -1.549862971465101,
+        -0.044961493202891556,
+        -0.7228239839178087,
+        -0.33233527304294425,
+        -1.1925565826361846,
+        -1.50136160506651,
+        -1.5399142669670725,
+        -1.456615971168055
+      ],
+      "noise": [
+        {
+          "p": 0,
+          "energy": -7.289189913937163,
+          "energy_error_per_site": 1.111321593583181e-05,
+          "fidelity_to_exact": 0.00016268765074843334,
+          "ferro_order": 0.9874302414092497,
+          "anti_order": -0.32913304144329936,
+          "structure_factor_q0": 0.9890014612330935,
+          "structure_factor_qpi2": 0.0015751094587627388,
+          "correlations": [
+            1.000000000001114,
+            0.987522007359556,
+            0.9873966764746032,
+            0.9873900467885608,
+            0.9873942286181945,
+            0.9873900467885608,
+            0.9873966764746032,
+            0.987522007359556
+          ],
+          "trace": 1.0000000000011138,
+          "purity": 1.000000000000952
+        },
+        {
+          "p": 0.01,
+          "energy": -6.641863498726038,
+          "energy_error_per_site": 0.08092691511732641,
+          "fidelity_to_exact": 0.01917937366896629,
+          "ferro_order": 0.8476594973076838,
+          "anti_order": -0.29625822682246,
+          "structure_factor_q0": 0.8667020601442232,
+          "structure_factor_qpi2": 0.013903164941577492,
+          "correlations": [
+            1.0000000000011187,
+            0.8939088997210298,
+            0.8491098959668884,
+            0.8190668891557762,
+            0.8094451114652782,
+            0.8190668891557762,
+            0.8491098959668884,
+            0.8939088997210298
+          ],
+          "trace": 1.0000000000011187,
+          "purity": 0.6556935170397766
+        },
+        {
+          "p": 0.05,
+          "energy": -4.658400885823944,
+          "energy_error_per_site": 0.32885974173008814,
+          "fidelity_to_exact": 0.04453093057476884,
+          "ferro_order": 0.47244755686476886,
+          "anti_order": -0.1945824525047198,
+          "structure_factor_q0": 0.5383916122566728,
+          "structure_factor_qpi2": 0.05203158031073008,
+          "correlations": [
+            1.0000000000011158,
+            0.6127307033194975,
+            0.47229659319371686,
+            0.3881162380768397,
+            0.3608458288721587,
+            0.3881162380768397,
+            0.47229659319371686,
+            0.6127307033194975
+          ],
+          "trace": 1.0000000000011158,
+          "purity": 0.13265635094219702
+        }
+      ]
+    },
+    {
+      "phase_point": "antiphase",
+      "kappa": 0.9,
+      "h": 0.1,
+      "n": 8,
+      "layers": 4,
+      "cnot_count": 28,
+      "rotation_count": 32,
+      "exact_energy": -7.222340721661487,
+      "exact_residual": 6.612660264947901e-15,
+      "best_clean_energy": -7.22231151289469,
+      "clean_energy_error_per_site": 3.6510958496549506e-06,
+      "clean_fidelity": 0.9999878032936026,
+      "optimizer_trials": [
+        {
+          "trial": 0,
+          "energy": -7.222311512894688,
+          "iterations": 400,
+          "evaluations": 444,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "trial": 1,
+          "energy": -7.222223529184297,
+          "iterations": 400,
+          "evaluations": 449,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "trial": 2,
+          "energy": -7.222311504500996,
+          "iterations": 400,
+          "evaluations": 443,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "trial": 3,
+          "energy": -7.2222310889019,
+          "iterations": 400,
+          "evaluations": 445,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "trial": 4,
+          "energy": -7.22223426342619,
+          "iterations": 400,
+          "evaluations": 447,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "trial": 5,
+          "energy": -7.222234098859964,
+          "iterations": 400,
+          "evaluations": 440,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        }
+      ],
+      "parameters": [
+        -1.314062822534885e-05,
+        0.0002145462503551819,
+        0.3512638821792533,
+        -0.6367420619789579,
+        -1.409814663104605,
+        -1.4782160928710597,
+        -1.5145986638925544,
+        1.5150654521246112,
+        -0.002021039981284336,
+        0.0002117416273340321,
+        -0.004481530659239247,
+        0.00846012681102392,
+        0.0022728959048147457,
+        0.00018839247620791515,
+        1.825913227267693e-05,
+        -0.0006981828393760761,
+        -1.6679325203968252,
+        -1.5665458363777525,
+        0.2935975782791076,
+        -0.5863774929376278,
+        -1.4119199715646669,
+        1.4873276648930154,
+        1.5062999888820743,
+        -1.510531521670148,
+        -0.09736857601405755,
+        0.001068814125670533,
+        3.141852770353816,
+        -4.7464648096234704e-05,
+        3.141555558360997,
+        2.9215245111897265e-05,
+        3.1403312127371183,
+        1.95227602791651e-05
+      ],
+      "noise": [
+        {
+          "p": 0,
+          "energy": -7.222311512900105,
+          "energy_error_per_site": 3.6510951727519725e-06,
+          "fidelity_to_exact": 0.9999878032940237,
+          "ferro_order": -0.14241106468716228,
+          "anti_order": 0.9968728100753931,
+          "structure_factor_q0": 0.000390318398733025,
+          "structure_factor_qpi2": 0.4988273037782724,
+          "correlations": [
+            1.0000000000011124,
+            1.5404556036053032e-06,
+            -0.996874764906164,
+            4.7838566768485024e-08,
+            0.996868900412739,
+            4.7838566768485024e-08,
+            -0.996874764906164,
+            1.5404556036053032e-06
+          ],
+          "trace": 1.0000000000011124,
+          "purity": 1.0000000000008435
+        },
+        {
+          "p": 0.01,
+          "energy": -6.409542661382442,
+          "energy_error_per_site": 0.1015997575348806,
+          "fidelity_to_exact": 0.7939459377456607,
+          "ferro_order": -0.13163819043692582,
+          "anti_order": 0.8722787842073844,
+          "structure_factor_q0": 0.00981658336768991,
+          "structure_factor_qpi2": 0.4521045440777691,
+          "correlations": [
+            1.0000000000011187,
+            2.270309209605366e-06,
+            -0.8845774551366463,
+            7.971237662416936e-07,
+            0.8476814423477416,
+            7.971237662416936e-07,
+            -0.8845774551366463,
+            2.270309209605366e-06
+          ],
+          "trace": 1.0000000000011187,
+          "purity": 0.6323023327307811
+        },
+        {
+          "p": 0.05,
+          "energy": -4.087440148102339,
+          "energy_error_per_site": 0.39186257169489347,
+          "fidelity_to_exact": 0.31624759647006334,
+          "ferro_order": -0.09910913162024912,
+          "anti_order": 0.5206797734976568,
+          "structure_factor_q0": 0.038279509832282024,
+          "structure_factor_qpi2": 0.3202549150616213,
+          "correlations": [
+            1.0000000000011156,
+            3.4798715920769663e-06,
+            -0.5639539041603012,
+            2.707531653295403e-06,
+            0.43413151217125234,
+            2.707531653295403e-06,
+            -0.5639539041603012,
+            3.4798715920769663e-06
+          ],
+          "trace": 1.0000000000011156,
+          "purity": 0.11091218814297252
+        }
+      ]
+    },
+    {
+      "phase_point": "paramagnetic",
+      "kappa": 0.2,
+      "h": 1.8,
+      "n": 8,
+      "layers": 4,
+      "cnot_count": 28,
+      "rotation_count": 32,
+      "exact_energy": -15.406773529581837,
+      "exact_residual": 1.1277100961141474e-14,
+      "best_clean_energy": -15.406373809096925,
+      "clean_energy_error_per_site": 4.996506061405448e-05,
+      "clean_fidelity": 0.9999321223949432,
+      "optimizer_trials": [
+        {
+          "trial": 0,
+          "energy": -15.406373809096927,
+          "iterations": 400,
+          "evaluations": 446,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "trial": 1,
+          "energy": -15.406293883933142,
+          "iterations": 400,
+          "evaluations": 434,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "trial": 2,
+          "energy": -15.405639835133151,
+          "iterations": 374,
+          "evaluations": 416,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "trial": 3,
+          "energy": -15.406332704387106,
+          "iterations": 241,
+          "evaluations": 273,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "trial": 4,
+          "energy": -15.290737750026237,
+          "iterations": 400,
+          "evaluations": 439,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "trial": 5,
+          "energy": -15.290736488203082,
+          "iterations": 400,
+          "evaluations": 426,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        }
+      ],
+      "parameters": [
+        -6.060810113594862e-06,
+        0.020047174478196584,
+        -0.061233077432221464,
+        0.04769910924210288,
+        1.286249330897759,
+        -1.548908050825883,
+        1.5499599970982831,
+        -1.55040660987952,
+        5.023341345377765e-05,
+        0.6513436485024114,
+        -0.5456354405787168,
+        1.424260956335175,
+        2.6098765112561844,
+        0.24102217489492864,
+        -0.247370207684772,
+        0.2495985784698223,
+        -2.588533247246998e-05,
+        0.1629826461007572,
+        0.7059658684686532,
+        -1.4681218613056055,
+        1.5393962061972128,
+        -1.5619766455741186,
+        -1.5489616606768841,
+        1.3960264964577955,
+        1.570864295476663,
+        0.7852940327940355,
+        1.3332756658886242,
+        1.5702938201970922,
+        1.570510940982017,
+        1.5706374282239552,
+        1.5733126802405761,
+        1.4902402965774066
+      ],
+      "noise": [
+        {
+          "p": 0,
+          "energy": -15.406373809110267,
+          "energy_error_per_site": 4.996505894627745e-05,
+          "fidelity_to_exact": 0.9999321223954744,
+          "ferro_order": 0.08189242926400876,
+          "anti_order": -0.027051662346880462,
+          "structure_factor_q0": 0.19665587560600767,
+          "structure_factor_qpi2": 0.11485562661991983,
+          "correlations": [
+            1.0000000000011138,
+            0.24468205999931675,
+            0.03990065629293493,
+            0.0027176233591646127,
+            -0.0013536744558851621,
+            0.0027176233591646127,
+            0.03990065629293493,
+            0.24468205999931675
+          ],
+          "trace": 1.0000000000011138,
+          "purity": 1.0000000000010631
+        },
+        {
+          "p": 0.01,
+          "energy": -14.194559347724653,
+          "energy_error_per_site": 0.1515267727321481,
+          "fidelity_to_exact": 0.8234794103354528,
+          "ferro_order": 0.07531264685064411,
+          "anti_order": -0.02355783106033904,
+          "structure_factor_q0": 0.1908985659943136,
+          "structure_factor_qpi2": 0.11616581335237286,
+          "correlations": [
+            1.0000000000011182,
+            0.22777374763259012,
+            0.034558565650505184,
+            0.002040131634162475,
+            -0.0015563618811248853,
+            0.002040131634162475,
+            0.034558565650505184,
+            0.22777374763259012
+          ],
+          "trace": 1.0000000000011182,
+          "purity": 0.6798620356572542
+        },
+        {
+          "p": 0.05,
+          "energy": -10.331313834677132,
+          "energy_error_per_site": 0.6344324618630881,
+          "fidelity_to_exact": 0.378726756980294,
+          "ferro_order": 0.05535858718032768,
+          "anti_order": -0.013874630041489403,
+          "structure_factor_q0": 0.17343876378278672,
+          "structure_factor_qpi2": 0.11979701373444147,
+          "correlations": [
+            1.000000000001115,
+            0.17391377024988003,
+            0.02003023809280363,
+            0.0005927537578936442,
+            -0.0015634139399759088,
+            0.0005927537578936442,
+            0.02003023809280363,
+            0.17391377024988003
+          ],
+          "trace": 1.000000000001115,
+          "purity": 0.15472729132504814
+        }
+      ]
+    }
+  ]
+}

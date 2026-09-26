@@ -1,0 +1,513 @@
+{
+  "description": "Four-layer real variational preparation; fixed clean parameters under target depolarizing noise.",
+  "seed": 250925,
+  "pennylane_version": "0.44.1",
+  "python_version": "3.14.7",
+  "elapsed_seconds": 167.29698295900016,
+  "records": [
+    {
+      "phase_point": "ferromagnetic",
+      "kappa": 0.1,
+      "h": 0.2,
+      "n": 8,
+      "layers": 4,
+      "cnot_count": 28,
+      "rotation_count": 32,
+      "exact_energy": -7.289278819664638,
+      "exact_residual": 5.386584206815045e-15,
+      "best_clean_energy": -7.289224574745114,
+      "clean_energy_error_per_site": 6.780614940526952e-06,
+      "clean_fidelity": 0.9999826932685614,
+      "global_x_parity": 0.9999999999991143,
+      "symmetry_penalty_weight": 0.5,
+      "optimizer_trials": [
+        {
+          "trial": 0,
+          "objective": -7.2891170127648675,
+          "iterations": 1200,
+          "evaluations": 1302,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "trial": 1,
+          "objective": -7.289224574744667,
+          "iterations": 985,
+          "evaluations": 1101,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "trial": 2,
+          "objective": -7.289208612948313,
+          "iterations": 1200,
+          "evaluations": 1286,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "trial": 3,
+          "objective": -7.289032584540737,
+          "iterations": 346,
+          "evaluations": 381,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "trial": 4,
+          "objective": -7.289224500617086,
+          "iterations": 677,
+          "evaluations": 745,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "trial": 5,
+          "objective": -7.289096590258204,
+          "iterations": 987,
+          "evaluations": 1057,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ],
+      "parameters": [
+        -0.11844925767502038,
+        1.0049132772667049,
+        2.1790765171435336,
+        1.5725051243261663,
+        1.5712029192991666,
+        1.571123582214266,
+        1.5711314751876968,
+        1.5711227714587226,
+        0.14006208274813112,
+        1.5707576131140384,
+        -0.6346607752526827,
+        -0.014811212299100615,
+        -0.007914999141359498,
+        -0.007728059739208853,
+        -0.007723309588986875,
+        -0.007616775526179071,
+        -0.07491984295928139,
+        -1.8764158696198205,
+        -0.3956559635374657,
+        -0.11892367003665175,
+        -0.11219086574582095,
+        -0.11230835614067845,
+        -0.1122528316216966,
+        -0.11073283192086623,
+        1.570794573602607,
+        -0.3968448946000418,
+        -1.7729446734162648,
+        -1.5800538991572215,
+        -1.5725086957029641,
+        -1.5670940858345326,
+        -1.5504639368345177,
+        -1.458285905237792
+      ],
+      "noise": [
+        {
+          "p": 0,
+          "energy": -7.289224574751312,
+          "energy_error_per_site": 6.780614165702303e-06,
+          "fidelity_to_exact": 0.9999826932690379,
+          "ferro_order": 0.9873998935385161,
+          "anti_order": -0.32912004107132303,
+          "structure_factor_q0": 0.9889749068462016,
+          "structure_factor_qpi2": 0.0015799845982538533,
+          "correlations": [
+            1.000000000001113,
+            0.9874985212143634,
+            0.9873603340272017,
+            0.9873604997230239,
+            0.9873605448393213,
+            0.9873604997230239,
+            0.9873603340272017,
+            0.9874985212143634
+          ],
+          "trace": 1.0000000000011129,
+          "purity": 1.000000000000954
+        },
+        {
+          "p": 0.01,
+          "energy": -6.682541834340072,
+          "energy_error_per_site": 0.07584212316557071,
+          "fidelity_to_exact": 0.8089048592441677,
+          "ferro_order": 0.8554132996094941,
+          "anti_order": -0.2920297342567123,
+          "structure_factor_q0": 0.8734866371583073,
+          "structure_factor_qpi2": 0.015488849653732886,
+          "correlations": [
+            1.0000000000011184,
+            0.8996351439215907,
+            0.8506394592302764,
+            0.8310770876361544,
+            0.8251897156892977,
+            0.8310770876361544,
+            0.8506394592302764,
+            0.8996351439215907
+          ],
+          "trace": 1.0000000000011187,
+          "purity": 0.6562142402218274
+        },
+        {
+          "p": 0.05,
+          "energy": -4.773905922130668,
+          "energy_error_per_site": 0.31442161219174625,
+          "fidelity_to_exact": 0.34712117705762946,
+          "ferro_order": 0.4875951173173262,
+          "anti_order": -0.18086650207416155,
+          "structure_factor_q0": 0.5516457276526604,
+          "structure_factor_qpi2": 0.057175061722189426,
+          "correlations": [
+            1.0000000000011156,
+            0.6284988021562449,
+            0.4687805683120772,
+            0.41182272494148475,
+            0.39496163040055443,
+            0.41182272494148475,
+            0.4687805683120772,
+            0.6284988021562449
+          ],
+          "trace": 1.0000000000011156,
+          "purity": 0.13207388367193662
+        }
+      ]
+    },
+    {
+      "phase_point": "antiphase",
+      "kappa": 0.9,
+      "h": 0.1,
+      "n": 8,
+      "layers": 4,
+      "cnot_count": 28,
+      "rotation_count": 32,
+      "exact_energy": -7.222340721661482,
+      "exact_residual": 1.1648448870474053e-14,
+      "best_clean_energy": -7.222312335575118,
+      "clean_energy_error_per_site": 3.548260795405156e-06,
+      "clean_fidelity": 0.9998479121177891,
+      "global_x_parity": 0.9999999999999692,
+      "symmetry_penalty_weight": 0.5,
+      "optimizer_trials": [
+        {
+          "trial": 0,
+          "objective": -7.222312335575109,
+          "iterations": 724,
+          "evaluations": 852,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "trial": 1,
+          "objective": -7.222312088037165,
+          "iterations": 657,
+          "evaluations": 737,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "trial": 2,
+          "objective": -7.222311638442006,
+          "iterations": 1144,
+          "evaluations": 1350,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "trial": 3,
+          "objective": -7.213872891977643,
+          "iterations": 107,
+          "evaluations": 129,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "trial": 4,
+          "objective": -7.2222374695404055,
+          "iterations": 1200,
+          "evaluations": 1279,
+          "success": false,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+        },
+        {
+          "trial": 5,
+          "objective": -7.222311684031212,
+          "iterations": 293,
+          "evaluations": 338,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ],
+      "parameters": [
+        6.744323318338245e-08,
+        0.005033543195579419,
+        0.4214165034934837,
+        -0.7045570124924649,
+        -1.446073891378182,
+        -1.4934856839771677,
+        -1.5149528856249241,
+        1.515137247202068,
+        -5.250023690758998e-09,
+        -0.008201515727977792,
+        -0.06515485780654713,
+        0.10953012735907057,
+        0.018961853824680346,
+        0.0014489867201619596,
+        -5.228225238922306e-05,
+        -0.0006938410593916599,
+        -2.0132396409830983e-07,
+        -1.545883655093745,
+        0.4069123180596208,
+        -0.7452469378272224,
+        -1.4636109131333854,
+        1.5078050487512304,
+        1.5092162940281597,
+        -1.5116737766395079,
+        1.5707963945494774,
+        0.006472491580509044,
+        3.1454631070743284,
+        -0.0002508719142202087,
+        3.1415673824730135,
+        2.789559396013075e-05,
+        3.1403317617944833,
+        1.7143518738189622e-05
+      ],
+      "noise": [
+        {
+          "p": 0,
+          "energy": -7.222312335580556,
+          "energy_error_per_site": 3.5482601157266203e-06,
+          "fidelity_to_exact": 0.9998479121182102,
+          "ferro_order": -0.14241097711475836,
+          "anti_order": 0.9968721504290688,
+          "structure_factor_q0": 0.0003903950245864257,
+          "structure_factor_qpi2": 0.4988270564109008,
+          "correlations": [
+            1.0000000000011124,
+            1.7078786218988333e-06,
+            -0.9968742352615918,
+            1.1709930402270642e-07,
+            0.9968679807629107,
+            1.1709930402270642e-07,
+            -0.9968742352615918,
+            1.7078786218988333e-06
+          ],
+          "trace": 1.0000000000011124,
+          "purity": 1.0000000000008433
+        },
+        {
+          "p": 0.01,
+          "energy": -6.415742155549645,
+          "energy_error_per_site": 0.10082482076397958,
+          "fidelity_to_exact": 0.7938121752382172,
+          "ferro_order": -0.1316665949638362,
+          "anti_order": 0.8728943186682493,
+          "structure_factor_q0": 0.00979172940664331,
+          "structure_factor_qpi2": 0.4523353695005935,
+          "correlations": [
+            1.0000000000011189,
+            0.00036529071777464256,
+            -0.8852017163019992,
+            -0.00013641848957710143,
+            0.8482795233996309,
+            -0.00013641848957710143,
+            -0.8852017163019992,
+            0.00036529071777464256
+          ],
+          "trace": 1.0000000000011189,
+          "purity": 0.6323701772352862
+        },
+        {
+          "p": 0.05,
+          "energy": -4.103974570960029,
+          "energy_error_per_site": 0.38979576883768163,
+          "fidelity_to_exact": 0.3166795796642157,
+          "ferro_order": -0.09924299872872387,
+          "anti_order": 0.5223680594798301,
+          "structure_factor_q0": 0.03816237611236661,
+          "structure_factor_qpi2": 0.3208880223049363,
+          "correlations": [
+            1.0000000000011153,
+            0.0010059393996348504,
+            -0.5657672369910964,
+            -0.00037405018772077546,
+            0.43556970445618226,
+            -0.00037405018772077546,
+            -0.5657672369910964,
+            0.0010059393996348504
+          ],
+          "trace": 1.0000000000011153,
+          "purity": 0.11175990725222137
+        }
+      ]
+    },
+    {
+      "phase_point": "paramagnetic",
+      "kappa": 0.2,
+      "h": 1.8,
+      "n": 8,
+      "layers": 4,
+      "cnot_count": 28,
+      "rotation_count": 32,
+      "exact_energy": -15.406773529581828,
+      "exact_residual": 5.41141198010455e-15,
+      "best_clean_energy": -15.406386149423408,
+      "clean_energy_error_per_site": 4.8422519802526764e-05,
+      "clean_fidelity": 0.9999329785368436,
+      "global_x_parity": 0.999999999998878,
+      "symmetry_penalty_weight": 0.5,
+      "optimizer_trials": [
+        {
+          "trial": 0,
+          "objective": -15.406386149422852,
+          "iterations": 534,
+          "evaluations": 593,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "trial": 1,
+          "objective": -15.405639829998679,
+          "iterations": 482,
+          "evaluations": 531,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "trial": 2,
+          "objective": -15.40563988619247,
+          "iterations": 615,
+          "evaluations": 667,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "trial": 3,
+          "objective": -15.406332704387344,
+          "iterations": 360,
+          "evaluations": 406,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "trial": 4,
+          "objective": -15.290800923393908,
+          "iterations": 729,
+          "evaluations": 775,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        },
+        {
+          "trial": 5,
+          "objective": -15.29074061002312,
+          "iterations": 1159,
+          "evaluations": 1270,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+        }
+      ],
+      "parameters": [
+        -5.206826909066892e-07,
+        0.06974806897664482,
+        -0.03923673036657346,
+        0.04244792998168648,
+        1.3237426619844157,
+        -1.5493033049408793,
+        1.5499516599437624,
+        -1.5503803462567927,
+        6.284321901902124e-06,
+        1.3248315518723432,
+        -0.08571810871614291,
+        1.4837140368160064,
+        2.6427252190384842,
+        0.2419433691146295,
+        -0.2475002577794572,
+        0.24964882719514273,
+        -6.094241628255235e-06,
+        0.25128638906922773,
+        0.508974350069839,
+        -1.5516059487476035,
+        1.561047645270785,
+        -1.5655532514993045,
+        -1.5487131408335009,
+        1.396617474678814,
+        1.570797006586194,
+        0.015047510995302025,
+        1.2709893413176871,
+        1.5763072415596735,
+        1.5705672111499345,
+        1.5707056983288101,
+        1.5733452758697097,
+        1.4895567339794056
+      ],
+      "noise": [
+        {
+          "p": 0,
+          "energy": -15.406386149436537,
+          "energy_error_per_site": 4.842251816139509e-05,
+          "fidelity_to_exact": 0.9999329785373612,
+          "ferro_order": 0.08194409138929018,
+          "anti_order": -0.027043669688905664,
+          "structure_factor_q0": 0.1967010799656289,
+          "structure_factor_qpi2": 0.11485862386666038,
+          "correlations": [
+            1.000000000001113,
+            0.24471948295806062,
+            0.03990875522269127,
+            0.002832830992431006,
+            -0.0013134986224474865,
+            0.002832830992431006,
+            0.03990875522269127,
+            0.24471948295806062
+          ],
+          "trace": 1.000000000001113,
+          "purity": 1.0000000000010358
+        },
+        {
+          "p": 0.01,
+          "energy": -14.129588109764,
+          "energy_error_per_site": 0.15964817747722848,
+          "fidelity_to_exact": 0.8197303229703987,
+          "ferro_order": 0.07519005177701343,
+          "anti_order": -0.023615634451735052,
+          "structure_factor_q0": 0.19079129530488675,
+          "structure_factor_qpi2": 0.11614413708059936,
+          "correlations": [
+            1.0000000000011189,
+            0.22663030823606353,
+            0.03482439731074308,
+            0.0023095300395997555,
+            -0.001198108734837713,
+            0.0023095300395997555,
+            0.03482439731074308,
+            0.22663030823606353
+          ],
+          "trace": 1.0000000000011187,
+          "purity": 0.6736463580756847
+        },
+        {
+          "p": 0.05,
+          "energy": -10.075476785501733,
+          "energy_error_per_site": 0.6664120930100119,
+          "fidelity_to_exact": 0.36974448303799484,
+          "ferro_order": 0.054517204913942026,
+          "anti_order": -0.013872224605040303,
+          "structure_factor_q0": 0.17270255429969927,
+          "structure_factor_qpi2": 0.11979791577310989,
+          "correlations": [
+            1.0000000000011156,
+            0.16975867936011593,
+            0.020424817454263555,
+            0.0010102398377144013,
+            -0.0007670389077092002,
+            0.0010102398377144013,
+            0.020424817454263555,
+            0.16975867936011593
+          ],
+          "trace": 1.0000000000011158,
+          "purity": 0.14742213899979867
+        }
+      ]
+    }
+  ]
+}
