@@ -1,0 +1,13 @@
+{
+  "hamiltonian_max_error": 7.105427357601002e-15,
+  "energy_error_0_0": 0.0,
+  "energy_error_0.8_0": 0.0,
+  "energy_error_0_0.7": 5.329070518200751e-15,
+  "energy_error_0.4_0.5": 1.509903313490213e-14,
+  "energy_error_0.8_0.6": 1.687538997430238e-14,
+  "ising_limit_error": 0.0,
+  "ferro_limit_error": 2.220446049250313e-16,
+  "antiphase_limit_error": 0.0,
+  "pennylane_noise_max_error": 1.3433698597964394e-14,
+  "pennylane_noise_circuit_count": 18
+}

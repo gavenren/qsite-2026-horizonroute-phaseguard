@@ -1,0 +1,296 @@
+{
+  "seed": 20260925,
+  "shots_per_repetition": 1024,
+  "repetitions": 2000,
+  "interpretation": "Empirical 2.5 and 97.5 percentiles of repeated samples; ideal direct Z measurement.",
+  "rows": [
+    {
+      "phase": "ferromagnetic",
+      "preparation": "shallow",
+      "p": 0,
+      "correct_label_fraction": 1.0,
+      "ferro_interval_95": [
+        0.9822126116071429,
+        0.9921875
+      ],
+      "anti_interval_95": [
+        -0.3307291666666668,
+        -0.32731119791666685
+      ],
+      "ferro_exact": 0.9873998935376844,
+      "anti_exact": -0.3291200410714461
+    },
+    {
+      "phase": "ferromagnetic",
+      "preparation": "shallow",
+      "p": 0.01,
+      "correct_label_fraction": 1.0,
+      "ferro_interval_95": [
+        0.8356567382812501,
+        0.8747209821428571
+      ],
+      "anti_interval_95": [
+        -0.2981770833333335,
+        -0.28564453125000017
+      ],
+      "ferro_exact": 0.8554132996087398,
+      "anti_exact": -0.29202973425686196
+    },
+    {
+      "phase": "ferromagnetic",
+      "preparation": "shallow",
+      "p": 0.05,
+      "correct_label_fraction": 0.0,
+      "ferro_interval_95": [
+        0.4600987025669643,
+        0.5135341099330357
+      ],
+      "anti_interval_95": [
+        -0.19222005208333345,
+        -0.16942952473958348
+      ],
+      "ferro_exact": 0.4875951173168115,
+      "anti_exact": -0.1808665020743928
+    },
+    {
+      "phase": "ferromagnetic",
+      "preparation": "exact_loader",
+      "p": 0,
+      "correct_label_fraction": 1.0,
+      "ferro_interval_95": [
+        0.9820731026785714,
+        0.9921875
+      ],
+      "anti_interval_95": [
+        -0.3307291666666668,
+        -0.3273111979166668
+      ],
+      "ferro_exact": 0.9873543037011958,
+      "anti_exact": -0.32910266089178675
+    },
+    {
+      "phase": "ferromagnetic",
+      "preparation": "exact_loader",
+      "p": 0.01,
+      "correct_label_fraction": 0.0,
+      "ferro_interval_95": [
+        0.5002092633928572,
+        0.5432529994419641
+      ],
+      "anti_interval_95": [
+        -0.19238281250000006,
+        -0.17382405598958342
+      ],
+      "ferro_exact": 0.5216836374483695,
+      "anti_exact": -0.18297024461865205
+    },
+    {
+      "phase": "ferromagnetic",
+      "preparation": "exact_loader",
+      "p": 0.05,
+      "correct_label_fraction": 0.0,
+      "ferro_interval_95": [
+        0.17027064732142858,
+        0.20654471261160715
+      ],
+      "anti_interval_95": [
+        -0.10938313802083338,
+        -0.0823567708333334
+      ],
+      "ferro_exact": 0.18730910239709933,
+      "anti_exact": -0.09676098970949584
+    },
+    {
+      "phase": "antiphase",
+      "preparation": "shallow",
+      "p": 0,
+      "correct_label_fraction": 1.0,
+      "ferro_interval_95": [
+        -0.14271763392857142,
+        -0.14202008928571427
+      ],
+      "anti_interval_95": [
+        0.994140625,
+        0.9990234375
+      ],
+      "ferro_exact": -0.14241097711479336,
+      "anti_exact": 0.9968721504279888
+    },
+    {
+      "phase": "antiphase",
+      "preparation": "shallow",
+      "p": 0.01,
+      "correct_label_fraction": 1.0,
+      "ferro_interval_95": [
+        -0.13406808035714285,
+        -0.12925502232142855
+      ],
+      "anti_interval_95": [
+        0.8533487955729168,
+        0.89111328125
+      ],
+      "ferro_exact": -0.1316665949638784,
+      "anti_exact": 0.8728943186672408
+    },
+    {
+      "phase": "antiphase",
+      "preparation": "shallow",
+      "p": 0.05,
+      "correct_label_fraction": 0.002,
+      "ferro_interval_95": [
+        -0.10400390625,
+        -0.09416678292410714
+      ],
+      "anti_interval_95": [
+        0.49429931640624997,
+        0.55159912109375
+      ],
+      "ferro_exact": -0.09924299872879136,
+      "anti_exact": 0.5223680594790587
+    },
+    {
+      "phase": "antiphase",
+      "preparation": "exact_loader",
+      "p": 0,
+      "correct_label_fraction": 1.0,
+      "ferro_interval_95": [
+        -0.14271763392857142,
+        -0.14202008928571427
+      ],
+      "anti_interval_95": [
+        0.994140625,
+        0.9990234375
+      ],
+      "ferro_exact": -0.14240867292813444,
+      "anti_exact": 0.9968528501716657
+    },
+    {
+      "phase": "antiphase",
+      "preparation": "exact_loader",
+      "p": 0.01,
+      "correct_label_fraction": 0.0,
+      "ferro_interval_95": [
+        -0.08761160714285714,
+        -0.07721644810267858
+      ],
+      "anti_interval_95": [
+        0.49999999999999994,
+        0.5449300130208333
+      ],
+      "ferro_exact": -0.08213181437568642,
+      "anti_exact": 0.5215456389463926
+    },
+    {
+      "phase": "antiphase",
+      "preparation": "exact_loader",
+      "p": 0.05,
+      "correct_label_fraction": 0.0,
+      "ferro_interval_95": [
+        -0.055454799107142856,
+        -0.03920200892857143
+      ],
+      "anti_interval_95": [
+        0.1542928059895833,
+        0.19857177734374995
+      ],
+      "ferro_exact": -0.04735667163904954,
+      "anti_exact": 0.1758653264781605
+    },
+    {
+      "phase": "paramagnetic",
+      "preparation": "shallow",
+      "p": 0,
+      "correct_label_fraction": 1.0,
+      "ferro_interval_95": [
+        0.06515066964285715,
+        0.0995413643973214
+      ],
+      "anti_interval_95": [
+        -0.04297281901041672,
+        -0.009277343750000056
+      ],
+      "ferro_exact": 0.0819440913890615,
+      "anti_exact": -0.027043669689257692
+    },
+    {
+      "phase": "paramagnetic",
+      "preparation": "shallow",
+      "p": 0.01,
+      "correct_label_fraction": 1.0,
+      "ferro_interval_95": [
+        0.05915004185267857,
+        0.09228515625
+      ],
+      "anti_interval_95": [
+        -0.040852864583333384,
+        -0.007486979166666722
+      ],
+      "ferro_exact": 0.07519005177678834,
+      "anti_exact": -0.02361563445209103
+    },
+    {
+      "phase": "paramagnetic",
+      "preparation": "shallow",
+      "p": 0.05,
+      "correct_label_fraction": 1.0,
+      "ferro_interval_95": [
+        0.0390625,
+        0.06968470982142858
+      ],
+      "anti_interval_95": [
+        -0.030436197916666706,
+        0.0037434895833332914
+      ],
+      "ferro_exact": 0.05451720491373356,
+      "anti_exact": -0.013872224605401757
+    },
+    {
+      "phase": "paramagnetic",
+      "preparation": "exact_loader",
+      "p": 0,
+      "correct_label_fraction": 1.0,
+      "ferro_interval_95": [
+        0.06263950892857142,
+        0.09626290457589286
+      ],
+      "anti_interval_95": [
+        -0.04508870442708339,
+        -0.010904947916666716
+      ],
+      "ferro_exact": 0.07921552059506308,
+      "anti_exact": -0.027968925738105575
+    },
+    {
+      "phase": "paramagnetic",
+      "preparation": "exact_loader",
+      "p": 0.01,
+      "correct_label_fraction": 1.0,
+      "ferro_interval_95": [
+        0.0341796875,
+        0.06312953404017856
+      ],
+      "anti_interval_95": [
+        -0.03027343750000004,
+        0.004720052083333294
+      ],
+      "ferro_exact": 0.04822953271749242,
+      "anti_exact": -0.013007374380498296
+    },
+    {
+      "phase": "paramagnetic",
+      "preparation": "exact_loader",
+      "p": 0.05,
+      "correct_label_fraction": 1.0,
+      "ferro_interval_95": [
+        0.011160714285714288,
+        0.036973353794642845
+      ],
+      "anti_interval_95": [
+        -0.022302246093750033,
+        0.014489746093749955
+      ],
+      "ferro_exact": 0.024457166366531252,
+      "anti_exact": -0.0037171201766388958
+    }
+  ]
+}

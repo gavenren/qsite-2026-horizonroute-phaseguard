@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checks": [
+    "All Python source compiles.",
+    "All JSON files use finite standard JSON values.",
+    "Both exact-loader grids pass physical bounds and residual checks.",
+    "The N=12 clean grid passes size and residual checks.",
+    "The short-circuit grid is complete and obeys the variational bound.",
+    "The notebook has 16 executed code cells and no error output."
+  ]
+}
