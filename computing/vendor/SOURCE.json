@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/benmcdonough20/QSITE-2026-QuantumCoalition",
+  "commit": "a45b04211d4da27dca3c79dbe7009ce58e85dc48",
+  "files": {
+    "baseline_routing.py": "ba7dfebb0681bf56345157bd513f10138c0128443622dfedfe72e5fe5808db41",
+    "__init__.py": "e187581b997dd6285e7b1fd72c299d8948fea9ed40f604ce723f59eddfa57dfe",
+    "visualize.py": "8feaad1dccf31dfd7dcc0e0a4e72b6983d73722cadea1816d616411333ea7713",
+    "hardware.py": "e00ea3a5f5fd1951b3fea4636ff3c668a5834f555a103fffaf511705ce14c546",
+    "benchmarks.py": "a846053ff7997b66eafbcdfad59c2376cdaf7344e441cf9e1289d257184980d7",
+    "scorer.py": "63417f2390d74fedc632e1fbfc747c75fe15d661fe66a71dea0931a0a49ae4b9"
+  }
+}
